@@ -18,4 +18,6 @@
 # runner = "probe-rs run --chip RP2040 --protocol swd"
 runner = "elf2uf2-rs -d" # ビルドするためのおまじないを追加
 ```
-4. ```cargo run```
+4. .github/workflows
+```root/.github/workflows```フォルダ削除。
+5. ```cargo run```でプログラムを実行する
